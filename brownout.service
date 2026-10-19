@@ -1,0 +1,9 @@
+[Unit]
+Description=Brownout check
+
+[Service]
+Type=oneshot
+EnvironmentFile=%h/brownout/brownout.env
+Environment=TZ=Asia/Manila
+ExecStart=/usr/bin/python3 %h/brownout/brownout.py
+TimeoutStartSec=1800

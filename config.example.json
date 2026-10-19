@@ -1,0 +1,16 @@
+{
+  "utility": "My Electric Coop",
+  "feed": "https://www.example-coop.ph/wp-json/wp/v2/posts?categories=22&per_page=10&_fields=id,date,title,link,content",
+  "feeders": [
+    "1-7"
+  ],
+  "substations": [
+    "Example"
+  ],
+  "streets": [
+    "Main St"
+  ],
+  "nearby": [
+    "Poblacion"
+  ]
+}
